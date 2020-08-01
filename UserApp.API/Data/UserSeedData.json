@@ -1,0 +1,102 @@
+[
+    {
+      "Username": "Lola",
+      "FirstName": "Lola",
+      "SurName": "Fields",
+      "Gender": "female",
+      "DateOfBirth": "1994-02-21",
+      "Password": "password",
+      "Email": "lola.fields@gmail.com",
+      "PhoneNumber": "07843245623"
+    },
+    {
+      "Username": "Dorothy",
+      "FirstName": "Dorothy",
+      "SurName": "Jennings",
+      "Gender": "female",
+      "DateOfBirth": "1979-04-19",
+      "Password": "password",
+      "Email": "dorothy.jennings@gmail.com",
+      "PhoneNumber": "07943175623"
+    },
+    {
+      "Username": "Reba",
+      "FirstName": "Reba",
+      "SurName": "Cook",
+      "Gender": "female",
+      "DateOfBirth": "1984-12-05",
+      "Password": "password",
+      "Email": "reba.cook@gmail.com",
+      "PhoneNumber": "07843244563"
+    },
+    {
+      "Username": "Annmarie",
+      "FirstName": "Annmarie",
+      "SurName": "Perkins",
+      "Gender": "female",
+      "DateOfBirth": "1970-02-25",
+      "Password": "password",
+      "Email": "annmarie.perkins@gmail.com",
+      "PhoneNumber": "07894745623"
+    },
+    {
+      "Username": "Ashley",
+      "FirstName": "Ashley",
+      "SurName": "Thomas",
+      "Gender": "female",
+      "DateOfBirth": "1953-03-01",
+      "Password": "password",
+      "Email": "ashley.thomas@gmail.com",
+      "PhoneNumber": "0784324743"
+    },
+    {
+      "Username": "Roy",
+      "FirstName": "Roy",
+      "SurName": "Burton",
+      "Gender": "male",
+      "DateOfBirth": "1993-08-21",
+      "Password": "password",
+      "Email": "roy.burton@gmail.com",
+      "PhoneNumber": "07912345623"
+    },
+    {
+      "Username": "Duke",
+      "FirstName": "Duke",
+      "SurName": "Williams",
+      "Gender": "male",
+      "DateOfBirth": "1996-09-07",
+      "Password": "password",
+      "Email": "duke.williams@gmail.com",
+      "PhoneNumber": "07843244823"
+    },
+    {
+      "Username": "Lloyd",
+      "FirstName": "Lloyd",
+      "SurName": "Broad",
+      "Gender": "male",
+      "DateOfBirth": "1957-03-07",
+      "Password": "password",
+      "Email": "lloyd.broad@gmail.com",
+      "PhoneNumber": "07623245623"
+    },
+    {
+      "Username": "Larsen",
+      "FirstName": "Larsen",
+      "SurName": "Stewart",
+      "Gender": "male",
+      "DateOfBirth": "1969-08-15",
+      "Password": "password",
+      "Email": "larsen.stewart@gmail.com",
+      "PhoneNumber": "07843246213"
+    },
+    {
+      "Username": "Simon",
+      "FirstName": "Simon",
+      "SurName": "Ball",
+      "Gender": "male",
+      "DateOfBirth": "1984-02-19",
+      "Password": "password",
+      "Email": "simon.ball@gmail.com",
+      "PhoneNumber": "07872345623"
+    }
+  ]

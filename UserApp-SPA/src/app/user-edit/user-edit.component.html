@@ -1,0 +1,54 @@
+<div class="container">
+  <br />
+  <h5>Edit User</h5>
+  <br />
+  <form [formGroup]="userForm" (ngSubmit)="editUser()">
+    
+    <div class="form-group">
+      <input [ngClass]="{'is-invalid': userForm.get('firstName').errors && userForm.get('firstName').touched}" class="form-control"
+        placeholder="First Name" formControlName="firstName">
+      <div class="invalid-feedback" *ngIf="userForm.get('firstName').touched && userForm.get('firstName').hasError('required')">First Name is required</div>
+    </div>
+    
+    <div class="form-group">
+      <input [ngClass]="{'is-invalid': userForm.get('surName').errors && userForm.get('surName').touched}" class="form-control"
+        placeholder="Surname" formControlName="surName">
+      <div class="invalid-feedback" *ngIf="userForm.get('surName').touched && userForm.get('surName').hasError('required')">Surname is required</div>
+    </div>
+    
+    <div class="form-group">
+      <input [ngClass]="{'is-invalid': userForm.get('gender').errors && userForm.get('gender').touched}" class="form-control"
+        placeholder="Gender" formControlName="gender">
+      <div class="invalid-feedback" *ngIf="userForm.get('gender').touched && userForm.get('gender').hasError('required')">Gender is required</div>
+    </div>
+ 
+    <div class="form-group">
+      <input [ngClass]="{'is-invalid': userForm.get('email').errors && userForm.get('email').touched}" class="form-control"
+        placeholder="Email" formControlName="email">
+      <div class="invalid-feedback" *ngIf="userForm.get('email').touched && userForm.get('email').hasError('required')">Email is required</div>
+    </div>
+
+    <div class="form-group">
+      <input [ngClass]="{'is-invalid': userForm.get('phoneNumber').errors && userForm.get('phoneNumber').touched}" class="form-control"
+        placeholder="Phone Number" formControlName="phoneNumber">
+      <div class="invalid-feedback" *ngIf="userForm.get('phoneNumber').touched && userForm.get('phoneNumber').hasError('required')">Phone number is required</div>
+    </div>
+
+    <div class="form-group">
+      <input [ngClass]="{'is-invalid': userForm.get('dateOfBirth').errors && userForm.get('dateOfBirth').touched}" class="form-control"
+        placeholder="Date of Birth" formControlName="dateOfBirth" type="text" bsDatepicker [bsConfig]="bsConfig">
+      <div class="invalid-feedback" *ngIf="userForm.get('dateOfBirth').touched && userForm.get('dateOfBirth').hasError('required')">Date of Birth is required</div>
+    </div>
+
+    <div class="form-group">
+      <input [ngClass]="{'is-invalid': userForm.get('userName').errors && userForm.get('userName').touched}" class="form-control"
+        placeholder="User Name" formControlName="userName">
+      <div class="invalid-feedback" *ngIf="userForm.get('userName').touched && userForm.get('userName').hasError('required')">Username is required</div>
+    </div>
+
+    <div class="form-group text-center">
+      <button class="btn btn-success" [disabled]="!userForm.valid && userForm.touched" type="submit">Save</button>
+      <button class="btn btn-default" type="button" (click)="cancel()">Cancel</button>
+    </div>
+  </form>
+</div>
